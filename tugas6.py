@@ -12,12 +12,12 @@ while i<553:
 print("\n")
 
 print('----Nomor Dua----')
-total=0
-n=1
-while n<=20:
-    total+=n
-    n+=2
-print("hasil jumlah:1 + 3 + 5 + 7 +9 +11 +13 + 15 +17 +19 =", total)
+
+jumlah=0
+for a in range(1,20,2):
+    jumlah +=a
+    print(a, end="+")
+print("=", jumlah)
 
 print("\n")
 
